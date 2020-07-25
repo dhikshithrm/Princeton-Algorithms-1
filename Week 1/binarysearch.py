@@ -10,4 +10,6 @@ def binarysearch(array,value):
         else:
             return mid
 x = binarysearch(list(range(285)),3)
-print(x)
+y = binarysearch(list(range(285)),290)
+print(x)  #prints 3
+print(y)  #prints none
