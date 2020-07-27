@@ -1,7 +1,7 @@
-# This is eager approach
-# DATA STRUCTURE
-# uid[n]
-# Implementation: p and q are connected iff uid[p] is equal to uid[q]
+''' This is eager approach
+    DATA STRUCTURE
+    uid[n]
+    Implementation: p and q are connected iff uid[p] is equal to uid[q]'''
 
 class QuickFindQF():
     def __init__(self,n,uid=[]):
